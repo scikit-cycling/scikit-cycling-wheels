@@ -1,0 +1,6 @@
+[submodule "multibuild"]
+	path = multibuild
+	url = https://github.com/matthew-brett/multibuild.git
+[submodule "scikit-cycling"]
+	path = scikit-cycling
+	url = git@github.com:scikit-cycling/scikit-cycling
