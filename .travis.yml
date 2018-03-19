@@ -6,14 +6,14 @@ env:
         - TEST_DEPENDS="numpy scipy pandas scikit-learn six joblib fitparse pytest"
         - PLAT=x86_64
         - UNICODE_WIDTH=32
-        - WHEELHOUSE_UPLOADER_USERNAME=travis-worker
+        - WHEELHOUSE_UPLOADER_USERNAME=glemaitre
         # Following generated with
         # travis encrypt -r your-org/your-project-wheels WHEELHOUSE_UPLOADER_SECRET=<the api key>
         # This is for Rackspace uploads.  Contact Matthew Brett, or the
         # scikit-learn team, for # permission (and the API key) to upload to
         # the Rackspace account used here, or use your own account.
-        # - secure:
-        #     "MNKyBWOzu7JAUmC0Y+JhPKfytXxY/ADRmUIMEWZV977FLZPgYctqd+lqel2QIFgdHDO1CIdTSymOOFZckM9ICUXg9Ta+8oBjSvAVWO1ahDcToRM2DLq66fKg+NKimd2OfK7x597h/QmUSl4k8XyvyyXgl5jOiLg/EJxNE2r83IA="
+        - secure:
+            "qBjBPW7t+2Iy1wOMeAOGixfnEHyk+nMUnBdWcsVpt1hZzemO+Ik2F8GjvIX+wcgE4bOCfFb0Ihn4MXZCHSAHV5KzkGxJJn6vGazQnfY0f7gOc8Xq8a5ffNhm6CLyHcZCgEi6iIT1BM2JRyHAtvRdA5RXg1pSPglQ9FBmGQhIYZkFJUHCbYB5QzpjU1r61pFPhQO2Anz0243I3hsLEmSTfz5b1acs9RpCLuvSdgf0pTcL4u8Or6+OfSEcVbnTtQRQj3yxjH+smNBC1MQMcFMgcEQUhZGg3cwxR4dgwnF1ORFV83ggn64BpLI9WGF3UYweIBcacwiNKoteqdmANnwOHK6zYHSTGAtGUGaEPEvkpiaNhI7NcgvjMaAfC3z0LUFBEqdpmd14GHBb/eMO0iXNqK8+RpK2oVILnAI6gr9DRIdV4lE6PyZyCItp+OGsbWiZHvEcbbghQqFbeX1Ep5rMwth4vpPMwcvxm3xXhXDEhtnGyrKRP+4r+zJypEH0VEVUj7n+uHYYW+lyumABFDs801Nn76mAJNoq0hE+MboWwdzaRMc/EL2yzlQm8X9ouReY/Spz1lZlz0GdHEINTnHzGQb7KuIsqmEDLwCALq62RXUVF01xKV0AGYWN1xCstWNGKjIaDE0/DOLnXe7hRUF1Mss2+XoiD40g7o1y064IEiU="
 
 language: python
 python: 3.5
