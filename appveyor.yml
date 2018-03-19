@@ -8,9 +8,9 @@ environment:
     # /E:ON and /V:ON options are not enabled in the batch script interpreter
     # See: http://stackoverflow.com/a/13751649/163740
     CMD_IN_ENV: "cmd /E:ON /V:ON /C ..\\appveyor\\run_with_env.cmd"
-    # WHEELHOUSE_UPLOADER_USERNAME: sklearn-appveyor
-    # WHEELHOUSE_UPLOADER_SECRET:
-    #   secure: P1/NpWGueg+26XlcS0P6kIKO1KbRw67S6ltwEjxb+vgf0F+zfNT6FRaMPKfHSXiR
+    WHEELHOUSE_UPLOADER_USERNAME: glemaitre
+    WHEELHOUSE_UPLOADER_SECRET:
+      secure: 7S7Rv9/r+HMR2jZ3b59b/J0BMzH9NUg89XTEHAW9QDmC6BH9ZJDgTKn/wPVBLriqK9jm1n8CfHaY5VqP0mgtCkrz7YzkX5KKJQ+BiEfIerAud/mu3oUZK8zwZQYbJzUo9Kp45wDFn0xpEr/rNqzY/g==
 
   matrix:
     - PYTHON: "C:\\Python27"
