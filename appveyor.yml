@@ -10,7 +10,7 @@ environment:
     CMD_IN_ENV: "cmd /E:ON /V:ON /C ..\\appveyor\\run_with_env.cmd"
     WHEELHOUSE_UPLOADER_USERNAME: glemaitre
     WHEELHOUSE_UPLOADER_SECRET:
-      secure: 7S7Rv9/r+HMR2jZ3b59b/J0BMzH9NUg89XTEHAW9QDmC6BH9ZJDgTKn/wPVBLriqK9jm1n8CfHaY5VqP0mgtCkrz7YzkX5KKJQ+BiEfIerAud/mu3oUZK8zwZQYbJzUo9Kp45wDFn0xpEr/rNqzY/g==
+      secure: ZVhvZuDuB5oNOfDyS9Fm644X4bf/9hQTDgVX2dgm8Os4OCf3dhyE/48fwTx3+Nms
 
   matrix:
     - PYTHON: "C:\\Python27"
